@@ -1,0 +1,307 @@
+/* General Styles */
+
+body {
+
+  font-family: 'Georgia', serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background: linear-gradient(135deg, #f3e5f5, #ffecb3);
+
+  color: #3e2723;
+
+  overflow-x: hidden;
+
+}
+
+header.header {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  background: linear-gradient(145deg, #673ab7, #ffb300);
+
+  color: #ffffff;
+
+  border-bottom: 5px solid #4a148c;
+
+}
+
+header.header h1 {
+
+  font-size: 1.8rem;
+
+  margin-bottom: 15px;
+
+}
+
+header.header p {
+
+  font-size: 1.0rem;
+
+  margin: 0;
+
+}
+
+/* Course Information */
+
+.course-info {
+
+  padding: 25px;
+
+  background: #ffffff;
+
+  border-radius: 12px;
+
+  margin-bottom: 25px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+  line-height: 1.8;
+
+}
+
+.course-info p {
+
+  margin: 8px 0;
+
+  font-size: 1.1rem;
+
+  color: #5d4037;
+
+}
+
+/* Main Course Container */
+
+.course-container {
+
+  padding: 30px;
+
+  max-width: 1000px;
+
+  margin: 30px auto;
+
+  background: #ffffff;
+
+  border-radius: 15px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Topics List */
+
+.topics-list h2 {
+
+  font-size: 1.2rem;
+
+  margin-bottom: 20px;
+
+  color: #3e2723;
+
+  text-align: center;
+
+  border-bottom: 4px solid #673ab7;
+
+  display: inline-block;
+
+  padding-bottom: 8px;
+
+}
+
+.topics-list ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+.topics-list ul li {
+
+  margin: 18px 0;
+
+}
+
+.topics-list ul li a {
+
+  display: block;
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  font-size: 1.3rem;
+
+  font-weight: bold;
+
+  background: linear-gradient(90deg, #673ab7, #ffb300);
+
+  padding: 18px 25px;
+
+  border-radius: 8px;
+
+  transition: background 0.3s, transform 0.3s;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+
+}
+
+.topics-list ul li a:hover {
+
+  background: linear-gradient(90deg, #ffb300, #673ab7);
+
+  transform: translateY(-4px);
+
+}
+
+/* Topic Details */
+
+.topic-container {
+
+  padding: 25px;
+
+}
+
+.topic-container h1 {
+
+  font-size: 2.0rem;
+
+  margin-bottom: 15px;
+
+  color: #3e2723;
+
+}
+
+.topic-container h2 {
+
+  font-size: 1.8rem;
+
+  margin-top: 25px;
+
+  color: #673ab7;
+
+}
+
+.topic-container h3 {
+
+  font-size: 1.4rem;
+
+  margin-top: 20px;
+
+  color: #ffb300;
+
+}
+
+.topic-container p {
+
+  font-size: 1.1rem;
+
+  line-height: 1.8;
+
+  color: #5d4037;
+
+}
+
+.topic-container ul {
+
+  list-style: disc;
+
+  margin-left: 25px;
+
+  margin-bottom: 25px;
+
+}
+
+.topic-container ul li {
+
+  margin-bottom: 12px;
+
+}
+
+/* Image Styling */
+
+.image-container {
+
+  margin: 25px 0;
+
+  text-align: center;
+
+}
+
+.image-container img {
+
+  max-width: 100%;
+
+  height: auto;
+
+  border: 3px solid #ffecb3;
+
+  border-radius: 15px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Back Button */
+
+.btn {
+
+  display: inline-block;
+
+  margin-top: 25px;
+
+  padding: 12px 25px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  font-size: 1rem;
+
+  background: linear-gradient(90deg, #673ab7, #ffb300);
+
+  color: #ffffff;
+
+  text-align: center;
+
+  transition: background 0.3s, transform 0.3s;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.btn.secondary {
+
+  background: linear-gradient(90deg, #ffb300, #673ab7);
+
+}
+
+.btn:hover {
+
+  background: linear-gradient(90deg, #673ab7, #ffb300);
+
+  transform: translateY(-3px);
+
+}
+
+/* Hidden Section */
+
+.hidden {
+
+  display: none;
+
+}
